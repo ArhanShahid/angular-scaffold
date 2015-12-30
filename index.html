@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=" -- placeholder -- ">
+    <meta name="description" content=" -- placeholder -- ">
+    <meta name="author" content=" -- placeholder -- ">
+
+    <!--META for Social Media-->
+    <meta property="og:title" content=" -- placeholder -- "/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content=" -- placeholder -- /"/>
+    <meta property="og:image" content=" -- placeholder -- "/>
+    <meta property="og:description" content=" -- placeholder -- "/>
+
+    <!--Website Favicon-->
+    <!--<link rel="icon" type="image/x-icon" href="#" />-->
+    <title>Main App</title>
+
+    <!-- CSS Libraries -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/general-css-rules.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+
+    <!-- JavaScript Libraries -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+
+
+
+    <!-- HTML5 Shim and Respond.scripts IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.scripts doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.scripts"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.scripts/1.4.2/respond.min.scripts"></script>
+    <![endif]-->
+</head>
+
+<body ng-app="mainApp" >
+
+<div class="container-fluid" ui-view></div>
+
+
+<script src="scripts/main.js"></script>
+
+<script src="scripts/services/mainService.js"></script>
+
+<script src="scripts/controllers/viewController.js"></script>
+<script src="scripts/controllers/loginController.js"></script>
+
+</body>
+
+</html>
